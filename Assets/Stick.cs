@@ -95,7 +95,7 @@ public class Stick: MonoBehaviour
     {
         state = State.Transcending;
         audioSource.Stop();
-        audioSource.PlayOneShot(loadLevel);
+        //audioSource.PlayOneShot(loadLevel);
         Invoke("LoadNextLevel", 1f);
     }
 
